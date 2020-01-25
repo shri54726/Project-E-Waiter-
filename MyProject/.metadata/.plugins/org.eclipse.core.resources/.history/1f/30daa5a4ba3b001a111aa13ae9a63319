@@ -1,0 +1,42 @@
+package com.ewaiter.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.ewaiter.dao.UserRepository;
+import com.ewaiter.dto.User;
+
+@Controller
+public class UserController {
+
+	@Autowired
+	UserRepository urepo;
+	
+	@GetMapping("/")
+	public String welcomePage()
+	{
+		return "login";
+	}
+	
+	@PostMapping("/loginPage")
+	public String loginPage(User user)
+	{
+		try
+		{
+		boolean value = false;
+		value = urepo.loginService(user);
+
+		if(value==true)
+			return "welcome";
+		else
+			return "login";
+		}
+		catch(Exception e)
+		{
+			
+		}
+		return "login";
+		}
+}

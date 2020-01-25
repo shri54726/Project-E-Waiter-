@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=ProjectEwaiter/C:\/Users\/darsh\/.m2\/repository\/org\/springframework\/spring-web\/5.2.3.RELEASE\/spring-web-5.2.3.RELEASE.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-web=/=/maven.version=/5.2.3.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.http.codec(CodecConfigurer$CustomCodecs.class[CustomCodecs" modifiers="1545" timestamp="1579250937847"/>
+<typeInfo handle="=ProjectEwaiter/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ewaiter.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1579903586165"/>
+<typeInfo handle="=ProjectEwaiter/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ewaiter.dao{CustomerRepository.java[CustomerRepository" modifiers="513" timestamp="1579903849636"/>
+</typeInfoHistroy>

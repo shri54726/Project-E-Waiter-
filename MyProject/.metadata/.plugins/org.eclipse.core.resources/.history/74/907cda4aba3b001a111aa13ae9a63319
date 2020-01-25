@@ -1,0 +1,13 @@
+package com.ewaiter.service;
+
+import com.ewaiter.dto.User;
+
+public class UserServiceImple implements UserService {
+
+	@Override
+	public boolean login(User user) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

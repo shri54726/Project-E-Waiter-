@@ -1,0 +1,6 @@
+package com.ewaiter.dao;
+
+public interface UserRepository {
+
+	public String login(User user);
+}

@@ -1,0 +1,13 @@
+package com.ewaiter.dao;
+
+import com.ewaiter.dto.Customer;
+import com.ewaiter.dto.User;
+
+public interface UserRepository {
+
+	public int login(User user);
+
+	public boolean register(User user);
+
+	public boolean custLoginRepo(Customer customer);
+}

@@ -1,0 +1,15 @@
+package com.ewaiter.dto;
+
+import javax.persistence.Entity;
+
+@Entity
+public class User {
+	@Id
+	private int user_id ;
+	private String user_name;
+	private String password;
+	private String name;
+	private int salary;
+	private int user_type_id;
+	
+}

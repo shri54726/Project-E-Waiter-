@@ -1,0 +1,5 @@
+package com.ewaiter.dto;
+
+public class Customer {
+
+}

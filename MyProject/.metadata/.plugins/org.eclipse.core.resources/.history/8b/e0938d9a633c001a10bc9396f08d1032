@@ -1,0 +1,13 @@
+package com.ewaiter.dto;
+
+public class Customer {
+	private int customer_id;
+	private String name;
+	private int table_id;
+	private String mobile_number;
+	
+	
+	
+	
+
+}

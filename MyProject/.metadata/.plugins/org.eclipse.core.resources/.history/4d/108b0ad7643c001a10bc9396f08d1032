@@ -1,0 +1,11 @@
+package com.ewaiter.service;
+
+import com.ewaiter.dto.User;
+
+public interface UserService {
+	
+	public boolean loginService(User user);
+
+	public boolean registerService(User user);
+
+}

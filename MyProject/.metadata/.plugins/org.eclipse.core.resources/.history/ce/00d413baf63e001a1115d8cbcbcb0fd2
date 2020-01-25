@@ -1,0 +1,27 @@
+package com.ewaiter.dao;
+
+import com.ewaiter.dto.Customer;
+
+public class CustomerRepositoryImple implements CustomerRepository {
+
+	@Override
+	public boolean custLoginRepo(Customer customer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+	@Override
+	public boolean custLoginRepo(Customer customer) {
+		
+		if(customer.getName().equals("")||(customer.getTable_id()==0)||customer.getMobile_no().equals(""))
+			return false;
+		String sql = "insert into customer (name,table_id,mobile_no) values(?,?,?)";
+		int records = jdbctemp.update(sql,new Object[] {customer.getName(),customer.getTable_id(),customer.getMobile_no()});
+		if(records!=0)
+			return true;
+		else
+			return false;
+	}
+
+}

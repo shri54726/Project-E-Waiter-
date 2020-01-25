@@ -1,0 +1,5 @@
+package com.ewaiter.configuration;
+
+public class TilesConfiguration {
+
+}

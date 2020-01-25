@@ -1,0 +1,55 @@
+package com.ewaiter.dto;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Customer {
+	@Id
+	@GeneratedValue
+	private int customer_id;
+	private String name;
+	private int table_id;
+	private String mobile_no;
+	
+	public int getCustomer_id() {
+		return customer_id;
+	}
+	public void setCustomer_id(int customer_id) {
+		this.customer_id = customer_id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getTable_id() {
+		return table_id;
+	}
+	public void setTable_id(String i) {
+		this.table_id = Integer.parseInt(i);
+	}
+	public String getMobile_no() {
+		return mobile_no;
+	}
+	public void setMobile_no(String mobile_no) {
+		this.mobile_no = mobile_no;
+	}
+	public Customer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Customer(String name, int table_id, String mobile_no) {
+		super();
+		this.name = name;
+		this.table_id = table_id;
+		this.mobile_no = mobile_no;
+	}
+	
+	
+	
+	
+
+}

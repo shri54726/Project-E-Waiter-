@@ -1,0 +1,20 @@
+package com.ewaiter.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ewaiter.dao.CustomerRepository;
+import com.ewaiter.dto.Customer;
+
+public class CustomerServiceImple implements CustomerService {
+
+	@Autowired
+	CustomerRepository crepo;
+	
+	@Override
+	public boolean custLoginService(Customer customer) {
+		boolean flag = false;
+		flag = creepo.custLoginRepo(customer);
+		return flag;
+	}
+
+}

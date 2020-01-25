@@ -1,0 +1,53 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer Login Page</title>
+<link
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+	 
+</head>
+<body>
+	<div class="container-flud  ">
+		
+		<div class="row bg-dark pt-3">
+				<div class="col-1 "></div>
+				<div class="col-8  text-light ">
+					<h1>Team 15 Restaurant</h1>
+				</div>
+				<div class="col-3 txt-light pt-3">				
+						<a href="/user/">Admin login</a>
+				</div>	
+		</div>
+
+		<div class="row bg-light">
+			<div class="col-3"></div>
+			<div class="col-6" align="center">
+				<div class="jumbotron">
+					<h4>Customer Login </h4>
+					<form action="custLogin" method="post">
+						<input type="text" class="rounded" name="name"  placeholder="Enter Name"><br> 
+						<input type="text" class=" rounded" name="mobile_no" placeholder="Enter Mobile Number"><br>
+						<input type="text" class=" rounded" name="table_id" placeholder="Enter Table No"><br>
+						<input type="submit" class="btn rounded text-dark border-dark" value="Submit"><br>
+					</form>
+				</div>				
+			</div>
+			<div class="col-3"></div>
+		</div>
+		
+		<div class="row ">
+			<div class="col-1 "></div>
+			<div class="col-11 text-dark ">
+				<footer>&copy; Copyright 2020 CDAC</footer>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

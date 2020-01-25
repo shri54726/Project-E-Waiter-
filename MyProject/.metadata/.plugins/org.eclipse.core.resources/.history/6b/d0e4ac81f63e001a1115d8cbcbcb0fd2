@@ -1,0 +1,20 @@
+package com.ewaiter.dao;
+
+import com.ewaiter.dto.Customer;
+import com.ewaiter.service.CustomerService;
+
+public class CustomerRepositoryImple implements CustomerService, CustomerRepository {
+
+	@Override
+	public boolean custLoginRepo(Customer customer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean custLoginService(Customer customer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

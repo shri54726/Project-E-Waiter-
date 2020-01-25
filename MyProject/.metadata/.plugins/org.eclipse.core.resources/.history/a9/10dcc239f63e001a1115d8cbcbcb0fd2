@@ -1,0 +1,14 @@
+package com.ewaiter.service;
+
+import com.ewaiter.dto.Customer;
+
+public class CustomerServiceImple implements CustomerService {
+
+	@Override
+	public boolean custLoginService(Customer customer) {
+		boolean flag = false;
+		flag = urepo.custLoginRepo(customer);
+		return flag;
+	}
+
+}
